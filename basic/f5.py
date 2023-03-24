@@ -1,6 +1,6 @@
 '''
     - POST방식으로 데이터 전송하기
-        - 클라이언트 (Json,Xml,Text,Form(키=값&키=값...,),Form-encode,Graphql,Binary)
+        - 클라이언트 (Json,Xml,Text,Form(키=값&키=값...),Form-encode,Graphql,Binary)
             - form 전송, 화면 껌벅 => 화면 전환,(Form,Form-encode 형식)
                 <form action="http://127.0.0.1:5000/link" method="post">
                     <input name="name" value="hello"/>
