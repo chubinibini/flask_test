@@ -5,6 +5,7 @@
 '''
 from flask import render_template, request, url_for
 from service.controllers import bp_auth as auth
+# auth의 블루프린트 땡겨옴
 
 # ~/auth/
 @auth.route('/')
