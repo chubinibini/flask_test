@@ -6,8 +6,8 @@
         <a href="http://127.0.0.1:5000/link?name=hello&age=100">링크</a>
     </div>
     <div>
-        <h3>form 태그를 통해서 form 전송(get방식)</h3>
-        <form action="http://127.0.0.1:5000/link" method="get">
+        <h3>form 태그를 통해서 form 전송(get 방식)</h3>
+        <form action="http://127.0.0.1:5000/link" method="get">            
             <input name="name" value="hello"/>
             <input name="age" value="100"/>
             <input type="submit" value="전송"/>
@@ -18,13 +18,13 @@
         $.get({
             url:"http://127.0.0.1:5000/link",
             data:"name=hello&age=100",
-            success:(res)=>{
-                console.log(res)
+            success:( res )=>{
+                console.log( res )
             },
             error:(err)=>{
-                console.log(err)
+                console.log( err )
             }
         })
-    </script>
+    </script>    
 </body>
 </html>
