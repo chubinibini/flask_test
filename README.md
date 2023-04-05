@@ -86,4 +86,4 @@
     - 2단계 코드 : 서버 가동시 sqlalchemy Pool을 이용하여 동접수를 계산하여 커넥션을 생성, 
                    요청시 -> 풀에서 커넥션 획득 -> 쿼리 수행 -> 커넥션 반납
                    서버 종료시 Pool에 있는 모든 커넥션 해제(반납)
-    - 3단계 코드 : flask-migrate -> sqlalchemy -> ORM을 이용하여 객체지향적으로 쿼리 수행
+    - 3단계 코드 : flask-migrate -> sqlalchemy -> ORM을 이용하여 객체지향적으로 쿼리 수행, 
